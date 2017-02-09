@@ -55,8 +55,9 @@ test
 -exec (-ok)  {} \; 
 ```
 
-其他查找命令 
-grep 文本 
-which 查找命令是否存在，以及命令的存放位置在哪儿 
-whereis 程序,反正和which差不多 
-locate 查找文件(但是是从数据库种查找) 
+其他查找命令  
+grep 文本  
+which 查找命令是否存在，以及命令的存放位置在哪儿  
+whereis 程序,反正和which差不多  
+locate 查找文件(但是是从数据库种查找)  
+ 
