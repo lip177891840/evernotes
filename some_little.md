@@ -1,9 +1,11 @@
 ####一些小技巧
 ```
 ------
-linux中上一条命令:
-方向键    !!    !-1    Ctrl+P (Ctrl+n下一条命令) 
-linux上一条命令参数:
+上一条命令:
+方向键    !!    !-1    Ctrl+P ↑    (Ctrl+n ↓下一条命令，分别对应上下方向键) 
+
+
+上一条命令参数:
 !*  所有参数
 !$  最后一个参数
 !-  除了最后一个参数部分
@@ -13,7 +15,7 @@ linux上一条命令参数:
 上一个工作路径 cd - 
 
 ------
-export HISTTIMEFORMAT 对history显示时间戳 
+export HISTTIMEFOttyRMAT 对history显示时间戳 
 
 ------
 Ctrl+R搜索历史 
@@ -23,18 +25,32 @@ Ctrl+R搜索历史
 
 
 
-```
-终端的一些快捷键:
 
-control+a  移动到终端的开始 
-control+e  移动到终端的结尾 
-control+k  删除终端光标后的所有内容 
-control+d  删除光标后的单个字符 
-control+b 向前移动光标 
-control+f  向后移动光标 
-control+p 上一条命令 
-control+l   清屏=clear 
-```
+终端一些快捷键:
+
+	输入:
+	control+a  移动到终端的开始  ahead
+	control+e  移动到终端的结尾  end
+	control+b  向前移动光标 
+	control+f  向后移动光标
+	alt+b      光标向前移动一个单词
+	alt+f      光标向后移动一个单词
+	control+u  删除光标前的所有内容
+	control+k  删除光标后的所有内容
+	control+h  删除光标前的单个字符
+	control+d  删除光标后的单个字符
+	control+w  删除光标前的一个单词
+
+	control+y  粘贴刚才所删除的字符
+
+	ctrl+(x+u)撤销操作
+
+	ctrl+l   清屏=clear 
+	ctrl+s  挂起
+	ctrl+q  解除挂起
+	ctrl+z  
+	
+
 
 在下面的例子，输入 !ps 并回车，将执行以 ps 打头的命令： 
 ```
