@@ -19,3 +19,4 @@ byzanz
 
 	byzanz-record -d 10 -x 20 -y 50 -w 400 -h 300 my_gif.gif
 	-d 默认10秒
+
