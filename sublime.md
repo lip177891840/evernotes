@@ -81,7 +81,35 @@ Preferences -> Setting-User    中设置"ignored_packages": []
 11: InsertNum
 	真的好用，谁用谁知道
 
+
+12: SublimeREPL  调试工具
+	PDB
+		---breakPoint---
+		b  10 第10行设置断点(不加参数查看断点)
+		cl  2　删除第二个断点
+		---run---
+		n    单步运行
+		s    细点运行
+		c    跳到下个断点
+		--查看--
+		p    param #查看当前 变量值
+		l    #查看运行到某处代码
+		a    #查看全部栈内变量
+		w    列出目前call    stack 中的所在层。
+		d    在call stack中往下移一层
+		u    在call stack中往上移一层。
+		disable 取消所有断点的功能,但仍然保留这些断点。
+		enable 恢复断点的功能。
+		ignore 设定断点的忽略次数。如果没指定 count,其初始 为 0。当 count 为 0 时,断点会正常动作。若有指定 count,则每次执行到该中断, count 就少 1,直到 count 数为 0。
+
+
+
+
+
 markdown篇:
+
+
+
 
 
 ```

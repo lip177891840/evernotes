@@ -48,7 +48,11 @@ Ctrl+R搜索历史
 	ctrl+l   清屏=clear 
 	ctrl+s  挂起
 	ctrl+q  解除挂起
-	ctrl+z  
+	ctrl+z  把当前命令放到后台，并且暂停
+		& 	    把这个命令放到后台执行
+		jobs    查看当前有多少在后台运行的命令
+		fg      将后台中的命令调至前台继续运行
+		bg      将一个在后台暂停的命令，变成继续执行
 	
 
 
@@ -59,3 +63,7 @@ ps aux | grep yp
 root 16947 0.0 0.1 36516 1264 ? Sl 13:10 0:00 ypbind 
 root 17503 0.0 0.0 4124 740 pts/0 S+ 19:19 0:00 grep yp
 ```
+
+_快速杀死进程_
+
+	ps -ef |grep hello |awk '{print $2}'|xargs kill -9
