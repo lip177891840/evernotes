@@ -1,4 +1,4 @@
-### 记录java的一些
+### 记录java的一些方法
 _Object类的主要方法_:
 
 	getClass()
@@ -38,3 +38,5 @@ _RunTime类_:
 	totalMemory()
 	freeMemory()
 	gc()
+
+
