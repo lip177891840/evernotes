@@ -11,6 +11,8 @@ oracle语法
 
 	oracle不相等(三种)
 
+http://w3.afulyu.pw/pw/read.php?tid=1037071&fpage=53
+
 
 *******
 
